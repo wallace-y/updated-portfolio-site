@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HTML & CSS Project</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- color schemes and styling -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="css/light-theme.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d632095aa9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <nav class="navbarSection">
+      <button id="theme-toggle" class="navButton primary-color">Dark Mode</button>
+
+      <ul id="myLinks" class="navbar-grid">
+        <li class="nav-item"><a href="">About</a></li>
+        <li class="nav-item"><a href="">Projects</a></li>
+        <li class="nav-item"><a href="">Skills</a></li>
+        <li class="nav-item"><a href="">Contact</a></li>
+      </ul>
+      <a class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-2xl"></i>
+      </a>
+      
+    </nav>
+<main>
+    <section id="sec-one" class="tertiary-color">
+      <div class="container top-container">
+        <div class="row">
+          <div>
+            <h1>&#128075 I'm Cam</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <p>
+              An accountant by day, a coder by night. Making the transition to software development and a change in career.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sec-two">
+      <div class="container">
+        <div id="project1" class="col">
+          <div>
+            <h1><a href="https://wallace-y.github.io/co-house-mock/">Companies House Search Project</a></h1>
+            <p>
+              The Companies House Search web application is a project built with React that allows users to search for companies from the Companies House register.
+              <br/><br/>
+              It was one of the first projects I built using React and a RESTful API. 
+              <br/><br/>
+              The application uses the useState and useEffect hooks, along with several components. It is also styled using Bootstrap. 
+              <br/><br/>
+              The App component manages an array of companies and a search term using useState and fetches data from the Companies House API using useEffect.
+              <br/><br/>
+              The searchCompanies function makes a request to the API and sets the companies state variable to the result. The component renders a search input, a search button, and a list of CompanyCard components to display the search results or a message if no companies are found.
+            </p>
+          </div>
+        </div>
+        <div id="project2" class="col">
+          <div>
+            <h1>Project 2</h1>
+            <p>
+              This is a second project
+            </p>
+          </div>
+          </div>
+          <div id="project3" class="col">
+            <div>
+              <h1>Project 3</h1>
+              <p>
+                This is a third project
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="sec-three" class="tertiary-color">
+      <div class="container top-container">
+        <div class="col">
+          <div>
+            <h1>Skills</h1>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <div class="grid-container">
+              <div class="grid-item" title="Javascript">
+                <i class="fa-brands fa-js"></i>
+              </div>
+              <div class="grid-item" title="HTML">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <div class="grid-item" title="CSS">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <div class="grid-item" title="Bootstrap">
+                <i class="fa-brands fa-bootstrap"></i>
+              </div>
+              <div class="grid-item" title="Node.js">
+                <i class="fa-brands fa-node"></i>
+              </div>
+              <div class="grid-item" title="Python">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div
+                class="grid-item"
+                title="Ruby (no official logo in Font Awesome &#129335)"
+              >
+                <i class="fa-solid fa-gem"></i>
+              </div>
+
+              <div class="grid-item" title="SQL"><i class="fa-solid fa-database"></i></div>
+              <div class="grid-item" title="Linux">
+                <i class="fa-brands fa-linux"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+    <footer class="footerSection">
+      <ul class="footer-grid">
+        <li class="footer-item">
+          <a href="mailto:cameronwfinney@gmail.com" target="_blank" title="Email me"
+            ><i class="fa-solid fa-envelope fa-2xl"></i
+          ></a>
+        </li>
+        <li class="footer-item">
+          <a href="https://uk.linkedin.com/in/cameronfinney" title="LinkedIn Profile"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        </li>
+        <li class="footer-item">
+          <a href="https://github.com/wallace-y/" title="GitHub Profile"><i class="fa-brands fa-github fa-2xl"></i></a>
+        </li>
+        <li class="footer-item">
+          <a href="" title="WhatsApp Profile"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="app.js" async defer></script>
+  </body>
+</html>

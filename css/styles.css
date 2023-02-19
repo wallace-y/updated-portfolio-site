@@ -1,0 +1,210 @@
+/* generic / page styling */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+/* navbar section styling */
+
+/* hamburger for mobile */
+
+.icon {
+  display: none;
+}
+
+.navbarSection {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+
+.navbar-grid {
+  display: flex;
+}
+
+#myLinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-top: 15px;
+  margin-right: 15px;
+  list-style: none;
+}
+
+.navButton {
+  color: white;
+  float: left;
+  margin-top: 10px;
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.navbarSection a {
+  text-decoration: none;
+}
+
+/* main section styling */
+
+section {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+  margin: 0 auto;
+}
+
+.col {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+#sec-one,
+#sec-three {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#sec-one h1 {
+  margin: 0;
+}
+
+.flex-item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#sec-one {
+  padding-top: 50px;
+  max-width: 100vw;
+  min-height: 30vh;
+}
+
+#sec-two {
+  max-width: 100vw;
+  min-height: 30vh;
+}
+
+#sec-three {
+  max-width: 100vw;
+  min-height: 30vh;
+}
+
+section .container {
+  padding: 2em;
+}
+
+.top-container {
+  margin: auto;
+}
+
+/* .item-one,
+.item-two,
+.item-three {
+  padding: 1em;
+} */
+
+#sec-two h1 {
+  margin-bottom: 10px;
+}
+
+#sec-two p {
+  margin-bottom: 10px;
+}
+
+/* footer section styling */
+
+.footerSection {
+  width: 100%;
+  height: 50px;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-item {
+  margin-top: 15px;
+  margin-left: 15px;
+  list-style: none;
+}
+
+.footer-item a {
+  text-decoration: none;
+}
+
+/* skills grid formatting */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* responsive webpage design */
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+  #sec-one h1 {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  /* hamburger styling */
+
+  .navButton {
+    float: none;
+  }
+
+  .icon {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+
+  #myLinks {
+    display: none;
+    flex-direction: column;
+  }
+
+  .nav-item {
+    background-color: #fff;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding: 15px;
+  }
+
+  .nav-link {
+    display: none;
+  }
+}
