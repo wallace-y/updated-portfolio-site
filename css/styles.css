@@ -3,7 +3,15 @@
   margin: 0px;
   padding: 0px;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+}
+
+/* colours */
+.primary-color-bg {
+  background-color: #625ff1;
+}
+
+.primary-text-color {
+  color: #fff;
 }
 
 /* navbar section styling */
