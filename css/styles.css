@@ -14,6 +14,22 @@
 
 .liveIcon {
   color: #625ff1;
+  animation: blink 5s infinite;
+}
+
+@keyframes blink{
+  20% {
+    color: black;
+  }
+  40% {
+    color: #625ff1;
+  }
+  60% {
+    color: black;
+  }
+  80% {
+    color: #625ff1;
+  }
 }
 
 .inactiveIcon {
