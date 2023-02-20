@@ -69,7 +69,22 @@ function highlightSkills() {
         python.setAttribute("class","col inactiveIcon")
         ruby.setAttribute("class","col inactiveIcon")
         sql.setAttribute("class","col inactiveIcon")  }
-
+    else {
+              // set live icons
+        // set inactive icons
+        js.setAttribute("class","col inactiveIcon")
+        html.setAttribute("class","col inactiveIcon")
+        css.setAttribute("class","col inactiveIcon")
+        react.setAttribute("class","col inactiveIcon")
+        git.setAttribute("class","col inactiveIcon")
+        bootstrap.setAttribute("class","col inactiveIcon")
+        node.setAttribute("class","col inactiveIcon")
+        linux.setAttribute("class","col inactiveIcon")
+        github.setAttribute("class","col inactiveIcon")
+        python.setAttribute("class","col inactiveIcon")
+        ruby.setAttribute("class","col inactiveIcon")
+        sql.setAttribute("class","col inactiveIcon") 
+    }
 }
 
 setInterval(highlightSkills,1000);
