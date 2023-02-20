@@ -11,3 +11,11 @@
 .primary-text-color {
   color: #fff;
 }
+
+.liveIcon {
+  color: #625ff1;
+}
+
+.inactiveIcon {
+  color: black;
+}
