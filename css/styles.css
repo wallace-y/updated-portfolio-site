@@ -28,3 +28,10 @@
   color: inherit;
   text-decoration: inherit;
 }
+
+
+@media only screen and (max-width: 768px) {  
+  .skillsIconsSection {
+    font-size: 8px;
+  }
+  }
