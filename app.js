@@ -25,6 +25,19 @@ function highlightSkills() {
 
 
   if (accordionOne === "true") {
+    // set inactive icons
+    js.setAttribute("class","col inactiveIcon")
+    html.setAttribute("class","col inactiveIcon")
+    css.setAttribute("class","col inactiveIcon")
+    react.setAttribute("class","col inactiveIcon")
+    git.setAttribute("class","col inactiveIcon")
+    bootstrap.setAttribute("class","col inactiveIcon")
+    node.setAttribute("class","col inactiveIcon")
+    linux.setAttribute("class","col inactiveIcon")
+    github.setAttribute("class","col inactiveIcon")
+    python.setAttribute("class","col inactiveIcon")
+    ruby.setAttribute("class","col inactiveIcon")
+    sql.setAttribute("class","col inactiveIcon") 
     // set live icons
     js.setAttribute("class","col liveIcon")
     html.setAttribute("class","col liveIcon")
@@ -35,11 +48,21 @@ function highlightSkills() {
     node.setAttribute("class","col liveIcon")
     linux.setAttribute("class","col liveIcon")
     github.setAttribute("class","col liveIcon")
+
+  } else if (accordionTwo === "true") {
     // set inactive icons
+    js.setAttribute("class","col inactiveIcon")
+    html.setAttribute("class","col inactiveIcon")
+    css.setAttribute("class","col inactiveIcon")
+    react.setAttribute("class","col inactiveIcon")
+    git.setAttribute("class","col inactiveIcon")
+    bootstrap.setAttribute("class","col inactiveIcon")
+    node.setAttribute("class","col inactiveIcon")
+    linux.setAttribute("class","col inactiveIcon")
+    github.setAttribute("class","col inactiveIcon")
     python.setAttribute("class","col inactiveIcon")
     ruby.setAttribute("class","col inactiveIcon")
-    sql.setAttribute("class","col inactiveIcon")
-  } else if (accordionTwo === "true") {
+    sql.setAttribute("class","col inactiveIcon") 
         // set live icons
         js.setAttribute("class","col liveIcon")
         html.setAttribute("class","col liveIcon")
@@ -48,13 +71,21 @@ function highlightSkills() {
         bootstrap.setAttribute("class","col liveIcon")
         linux.setAttribute("class","col liveIcon")
         github.setAttribute("class","col liveIcon")
-        // set inactive icons
-        react.setAttribute("class","col inactiveIcon")
-        node.setAttribute("class","col inactiveIcon")
-        python.setAttribute("class","col inactiveIcon")
-        ruby.setAttribute("class","col inactiveIcon")
-        sql.setAttribute("class","col inactiveIcon")
+
   } else if (accordionThree === "true") {
+// set inactive icons
+js.setAttribute("class","col inactiveIcon")
+html.setAttribute("class","col inactiveIcon")
+css.setAttribute("class","col inactiveIcon")
+react.setAttribute("class","col inactiveIcon")
+git.setAttribute("class","col inactiveIcon")
+bootstrap.setAttribute("class","col inactiveIcon")
+node.setAttribute("class","col inactiveIcon")
+linux.setAttribute("class","col inactiveIcon")
+github.setAttribute("class","col inactiveIcon")
+python.setAttribute("class","col inactiveIcon")
+ruby.setAttribute("class","col inactiveIcon")
+sql.setAttribute("class","col inactiveIcon") 
         // set live icons
         js.setAttribute("class","col liveIcon")
         html.setAttribute("class","col liveIcon")
@@ -64,11 +95,8 @@ function highlightSkills() {
         node.setAttribute("class","col liveIcon")
         linux.setAttribute("class","col liveIcon")
         github.setAttribute("class","col liveIcon")
-        // set inactive icons
-        react.setAttribute("class","col inactiveIcon")
-        python.setAttribute("class","col inactiveIcon")
-        ruby.setAttribute("class","col inactiveIcon")
-        sql.setAttribute("class","col inactiveIcon")  }
+
+       }
     else {
               // set live icons
         // set inactive icons

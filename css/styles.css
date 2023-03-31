@@ -36,6 +36,7 @@ span {
 
 .inactiveIcon {
   color: black;
+  animation: blink none;
 }
 
 /* unstyling links */
