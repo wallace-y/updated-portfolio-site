@@ -3,7 +3,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* colours */
+/* colors */
 .primary-color-bg {
   background-color: #625ff1;
 }
@@ -39,7 +39,7 @@ span {
   animation: blink none;
 }
 
-/* unstyling links */
+/* unstyled links */
 
 .link-unstyled,
 .link-unstyled:link,
