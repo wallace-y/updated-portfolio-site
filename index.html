@@ -96,7 +96,7 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  The <a href="https://wallace-y.github.io/mixedMessages/">Text Prompt Generator</a> is an HTML webpage that generates a random text prompt for DALL-E, an AI image generation model by OpenAI, and shows an image gallery of previously generated images. The code uses the Bootstrap framework for styling and responsiveness.<br><br>
+                  The <a href="https://wallace-y.github.io/mixedMessages/" target="_blank">Text Prompt Generator</a> is an HTML webpage that generates a random text prompt for DALL-E, an AI image generation model by OpenAI, and shows an image gallery of previously generated images. The code uses the Bootstrap framework for styling and responsiveness.<br><br>
 
                   There is a "Generate" button that calls a JavaScript function to generate the random prompt, and a prompt output box to display the generated prompt.<br><br>
                   
@@ -112,13 +112,12 @@
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  The <a href="https://affirmation-emails.onrender.com">Words Of Affirmation</a> project tis a Node.js server that sends a daily email containing a random affirmation message to a designated email address.<br><br>
+                  The <a href="https://affirmation-emails.onrender.com" target="_blank">Words Of Affirmation</a> project is a Node.js server that sends a daily email containing a random affirmation message to a designated email address.<br><br>
 
-                  The first file, affirmations.js, exports a function that returns a randomly generated affirmation message. <br><br>
+                  The project is hosted via Render. As well as the server side daily affirmation, there is a front-end element that providers users with a randomly generated affirmation each time the site is loaded.<br><br>                  
                   
-                  The second file, index.html, is a simple HTML file with a form that allows the user to input their email address. <br><br>
-                  
-                  The third file, server.js, is the main server file that listens for incoming requests on a specified port. When the server is started, it sets up a cron job to run every day at 7:45 am that sends an email to the designated email address using the nodemailer library. The email contains a message generated from the affirmations.js file. The server also provides a default HTML file at the root URL.
+                  The server is set up to run a cron job to run every day at 7:45 am that sends an email to the designated email address using the nodemailer library. The email contains a message generated from the affirmations.js file.<br><br>
+                  I learn't a lot of new things in this project, notably seting up Cron and using dotenv for managing environment varibles, as well as obtaining more practice with Node.js and Express. This is also one of the first projects I have launched to a hosted server using Render.
                 </div>
               </div>
             </div>
