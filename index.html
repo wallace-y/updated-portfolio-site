@@ -107,12 +107,18 @@
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Project #3
+                  Word Of Affirmation Generator
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  The <a href="https://affirmation-emails.onrender.com">Words Of Affirmation</a> project tis a Node.js server that sends a daily email containing a random affirmation message to a designated email address.<br><br>
+
+                  The first file, affirmations.js, exports a function that returns a randomly generated affirmation message. <br><br>
+                  
+                  The second file, index.html, is a simple HTML file with a form that allows the user to input their email address. <br><br>
+                  
+                  The third file, server.js, is the main server file that listens for incoming requests on a specified port. When the server is started, it sets up a cron job to run every day at 7:45 am that sends an email to the designated email address using the nodemailer library. The email contains a message generated from the affirmations.js file. The server also provides a default HTML file at the root URL.
                 </div>
               </div>
             </div>
