@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head of site -->
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Cam Finney - Portfolio</title>
+
+      <!-- CSS stylesheets -->
+      <link id="theme" rel="stylesheet" type="text/css" href="css/light-theme.css" />
+      <link rel="stylesheet" href="css/styles.css" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,800&display=swap"
+        rel="stylesheet"
+      />
+
+      <!-- Font Awesome -->
+      <script src="https://kit.fontawesome.com/d632095aa9.js" crossorigin="anonymous"></script>
+
+      <!-- Bootstrap JavaScript -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+      <!-- jquery -->
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    
+    </head>
+    <!-- Start of body -->
+    <body id="body" class="bg-light" >
+
+    <!-- Navigation Bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light border-bottom">
+    </nav>
+    <!-- End of Navigation Bar -->
+
+    <!-- Jumbotron header -->
+    <header class="p-5 mb-4 rounded-3">
+      <div class="container">
+        <h1 class="display-4 fw-bold">&#128075 I'm Cam</h1>
+        <p class="fs-5">An accountant by day, a coder by night. Making the transition to software development and a change in career.</p>
+      </div>
+    </header>
+
+    
+  <!-- Footer section -->
+    <footer id="footer" class="container-fluid d-flex pt-4 my-md-5 pt-md-5 border-top justify-content-center text-center">
+
+    </footer>
+  <!-- End of Footer Section -->
+
+
+
+  <script>
+    // loads navbar
+    $(function(){
+    $("#navbar").load("elements/nav.html");
+    });
+    // loads footer
+    $(function(){
+      $("#footer").load("elements/footer.html");
+      });
+    </script>
+
+    <script src="app.js" async defer></script>
+    <script src="darkmode.js" async defer></script>
+  </body>
+</html>
