@@ -1,3 +1,11 @@
-# updated-portfolio-site
+# Portfolio Website
 
-This project is a redesign of my basic previous project [https://wallace-y.github.io/HTML-CSS-Project/], which was built using pure HTML and CSS. This redesign uses the Bootstrap CSS framework to create cleaner styles with more consistency.
+This is a portfolio website created to showcase my skills and projects. The website is designed with HTML, CSS, and JavaScript, and is hosted online via [pages](https://wallace-y.github.io/updated-portfolio-site/). The website includes information about me, my skills, and a few of my projects.
+
+## Dependencies
+This website uses the following dependencies:
+
+* Bootstrap
+* Font Awesome
+* jQuery
+* Google Fonts
