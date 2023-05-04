@@ -1,104 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
   <!-- Head of site -->
-    <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="description" content="" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Cam Finney - Portfolio</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cam Finney - Portfolio</title>
 
-      <!-- CSS stylesheets -->
-      <link id="theme" rel="stylesheet" type="text/css" href="css/light-theme.css" />
-      <link rel="stylesheet" href="css/styles.css" />
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- CSS stylesheets -->
+    <link
+      id="theme"
+      rel="stylesheet"
+      type="text/css"
+      href="css/light-theme.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-      <!-- Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,800&display=swap"
-        rel="stylesheet"
-      />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
 
-      <!-- Font Awesome -->
-      <script src="https://kit.fontawesome.com/d632095aa9.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d632095aa9.js"
+      crossorigin="anonymous"
+    ></script>
 
-      <!-- Bootstrap JavaScript -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    
-      <!-- jquery -->
-      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    
-    </head>
-    <!-- Start of body -->
-    <body id="body" class="bg-light" >
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <!-- Start of body -->
+  <body id="body" class="bg-light">
     <!-- Navigation Bar -->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-light border-bottom">
-    </nav>
+    <nav
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-light border-bottom"
+    ></nav>
     <!-- End of Navigation Bar -->
 
     <!-- Jumbotron header -->
     <header class="py-5">
       <div class="container text-center">
         <h1 class="display-4 fw-bold mb-4">&#128075; I'm Cam</h1>
-        <p class="lead">An accountant by day, a coder by night. Making the transition to software development and a change in career.</p>
+        <p class="lead">
+          Junior Developer and Chartered Accountant. Transitioning into the software field.
+        </p>
       </div>
     </header>
 
     <!-- Center container - accordion and skills -->
-    <div class="container-fluid bg-white text-dark border border-5">
-      <div class="row align-items-start">
+    <div class="container-fluid bg-white text-dark border border-5 p-2">
+      <div class="row g-2 align-items-start">
         <!-- Accordion of Projects -->
         <div class="col align-self-center">
           <div class="accordion" id="accordionExample">
             <!-- Accordion item 1 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="fw-bold accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Companies House Search Project</button>
+                <button
+                  class="fw-bold accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Companies House Search Project
+                </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body"> <a class="link-dark" href="https://wallace-y.github.io/co-house-mock/" target="_blank">The Companies House Search</a> web application is a project built with React that allows users to search for companies from the Companies House register. It was one of the first projects I built using React and a RESTful API. <br/><br/>The application uses the useState and useEffect hooks, along with several components. It is also styled using Bootstrap. <br/><br/>The App component manages an array of companies and a search term using useState and fetches data from the Companies House API using useEffect.<br/><br/>The searchCompanies function makes a request to the API and sets the companies state variable to the result. The component renders a search input, a search button, and a list of CompanyCard components to display the search results or a message if no companies are found.
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <a
+                    class="link-dark"
+                    href="https://wallace-y.github.io/co-house-mock/"
+                    target="_blank"
+                    >The Companies House Search</a
+                  >
+                  web application is a project built with React that allows
+                  users to search for companies from the Companies House
+                  register. It was one of the first projects I built using React
+                  and a RESTful API. <br /><br />The application uses the
+                  useState and useEffect hooks, along with several components.
+                  It is also styled using Bootstrap. <br /><br />The App
+                  component manages an array of companies and a search term
+                  using useState and fetches data from the Companies House API
+                  using useEffect.<br /><br />The searchCompanies function makes
+                  a request to the API and sets the companies state variable to
+                  the result. The component renders a search input, a search
+                  button, and a list of CompanyCard components to display the
+                  search results or a message if no companies are found.
                 </div>
               </div>
             </div>
             <!-- Accordion item 2 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="fw-bold accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Text Prompt Generator</button>
+                <button
+                  class="fw-bold accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Text Prompt Generator
+                </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
                 <div class="accordion-body">
-                  The <a class="link-dark" href="https://wallace-y.github.io/mixedMessages/" target="_blank">Text Prompt Generator</a> is an HTML webpage that generates a random text prompt for 'DALL-E', an AI image generation model by OpenAI, and shows an image gallery of previously generated images. The code uses the Bootstrap framework for styling and responsiveness.<br><br>
+                  The
+                  <a
+                    class="link-dark"
+                    href="https://wallace-y.github.io/mixedMessages/"
+                    target="_blank"
+                    >Text Prompt Generator</a
+                  >
+                  is an HTML webpage that generates a random text prompt for
+                  'DALL-E', an AI image generation model by OpenAI, and shows an
+                  image gallery of previously generated images. The code uses
+                  the Bootstrap framework for styling and responsiveness.<br /><br />
 
-                  There is a "Generate" button that calls a JavaScript function to generate the random prompt, and a prompt output box to display the generated prompt.<br><br>
-                  
-                  The image gallery section displays generated images in a card layout using Bootstrap's grid system. Each card contains an image and a title of the generated image.
+                  There is a "Generate" button that calls a JavaScript function
+                  to generate the random prompt, and a prompt output box to
+                  display the generated prompt.<br /><br />
+
+                  The image gallery section displays generated images in a card
+                  layout using Bootstrap's grid system. Each card contains an
+                  image and a title of the generated image.
                 </div>
               </div>
             </div>
             <!-- Accordion item 3 -->
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
-                <button class="fw-bold accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button
+                  class="fw-bold accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
                   Word Of Affirmation Generator
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
                 <div class="accordion-body">
-                  The <a class="link-dark" href="https://affirmation-emails.onrender.com" target="_blank">Words Of Affirmation</a> project is a Node.js server that sends a daily email containing a random affirmation message to a designated email address.<br><br>
+                  The
+                  <a
+                    class="link-dark"
+                    href="https://affirmation-emails.onrender.com"
+                    target="_blank"
+                    >Words Of Affirmation</a
+                  >
+                  project is a Node.js server that sends a daily email
+                  containing a random affirmation message to a designated email
+                  address.<br /><br />
 
-                  The project is hosted via Render. As well as the server side daily affirmation, there is a front-end element that providers users with a randomly generated affirmation each time the site is loaded.<br><br>                  
-                  
-                  The server is set up to run a cron job to run every day at 7:45 am that sends an email to the designated email address using the nodemailer library. The email contains a message generated from the affirmations.js file.<br><br>
-                  I learn't a lot of new things in this project, notably setting up Cron and using dotenv for managing environment variables, as well as obtaining more practice with Node.js and Express. This is also one of the first projects I have launched to a hosted server using Render.
+                  The project is hosted via Render. As well as the server side
+                  daily affirmation, there is a front-end element that providers
+                  users with a randomly generated affirmation each time the site
+                  is loaded.<br /><br />
+
+                  The server is set up to run a cron job to run every day at
+                  7:45 am that sends an email to the designated email address
+                  using the nodemailer library. The email contains a message
+                  generated from the affirmations.js file.<br /><br />
+                  I learn't a lot of new things in this project, notably setting
+                  up Cron and using dotenv for managing environment variables,
+                  as well as obtaining more practice with Node.js and Express.
+                  This is also one of the first projects I have launched to a
+                  hosted server using Render.
                 </div>
               </div>
             </div>
           </div>
         </div>
-      
+
         <!-- List of Skills -->
 
         <div class="col">
@@ -106,73 +217,73 @@
             <!-- Skills Header -->
             <h1 class="fw-bold">Skills</h1>
             <!-- Skills Row 1 -->
-              <div class="row skillsIconsSection">
-                  <div id="javascriptIcon" class="col">
-                    <i class="fa-brands fa-js fa-5x" title="Javascript"></i>
-                  </div>
-                  <div id="HTMLIcon" class="col">
-                    <i class="fa-brands fa-html5 fa-5x"  title="HTML"></i>
-                  </div>
-                  <div id="CSSIcon" class="col">
-                    <i class="fa-brands fa-css3-alt fa-5x" title="CSS"></i>
-                  </div>
-                  <div id="ReactIcon" class="col">
-                    <i class="fa-brands fa-react fa-5x" title="React"></i>
-                  </div>
+            <div class="row skillsIconsSection">
+              <div id="javascriptIcon" class="col">
+                <i class="fa-brands fa-js fa-5x" title="Javascript"></i>
               </div>
+              <div id="HTMLIcon" class="col">
+                <i class="fa-brands fa-html5 fa-5x" title="HTML"></i>
+              </div>
+              <div id="CSSIcon" class="col">
+                <i class="fa-brands fa-css3-alt fa-5x" title="CSS"></i>
+              </div>
+              <div id="ReactIcon" class="col">
+                <i class="fa-brands fa-react fa-5x" title="React"></i>
+              </div>
+            </div>
             <!-- Skills Row 2 -->
-              <div class="row skillsIconsSection">
-                    <div id="gitIcon" class="col"> 
-                      <i class="fa-brands fa-square-git fa-5x" title="Git"></i>
-                    </div>
-                    <div id="bootstrapIcon" class="col"> 
-                      <i class="fa-brands fa-bootstrap fa-5x" title="Bootstrap"></i>
-                    </div>
-                    <div id="nodeIcon" class="col"> 
-                      <i class="fa-brands fa-node fa-5x" title="Node.js"></i>
-                    </div>
-                    <div id="pythonIcon" class="col"> 
-                      <i class="fa-brands fa-python fa-5x" title="Python"></i>
-                    </div>
+            <div class="row skillsIconsSection">
+              <div id="gitIcon" class="col">
+                <i class="fa-brands fa-square-git fa-5x" title="Git"></i>
               </div>
+              <div id="bootstrapIcon" class="col">
+                <i class="fa-brands fa-bootstrap fa-5x" title="Bootstrap"></i>
+              </div>
+              <div id="nodeIcon" class="col">
+                <i class="fa-brands fa-node fa-5x" title="Node.js"></i>
+              </div>
+              <div id="pythonIcon" class="col">
+                <i class="fa-brands fa-python fa-5x" title="Python"></i>
+              </div>
+            </div>
             <!-- Skills Row 3 -->
-              <div class="row skillsIconsSection">
-                <div id="rubyIcon" class="col"> 
-                  <i class="fa-solid fa-gem fa-5x" title="Ruby (no official logo in Font Awesome &#129335)"></i>
-                </div>
-                <div id="SQLIcon" class="col"> 
-                  <i class="fa-solid fa-database fa-5x" title="SQL"></i>
-                </div>
-                <div id="LinuxIcon" class="col"> 
-                  <i class="fa-brands fa-linux fa-5x" title="Linux"></i>
-                </div>
-                <div id="gitHubIcon" class="col"> 
-                  <i class="fa-brands fa-github fa-5x" title="Github"></i>
-                </div>
+            <div class="row skillsIconsSection">
+              <div id="rubyIcon" class="col">
+                <i
+                  class="fa-solid fa-gem fa-5x"
+                  title="Ruby (no official logo in Font Awesome &#129335;)"
+                ></i>
+              </div>
+              <div id="SQLIcon" class="col">
+                <i class="fa-solid fa-database fa-5x" title="SQL"></i>
+              </div>
+              <div id="LinuxIcon" class="col">
+                <i class="fa-brands fa-linux fa-5x" title="Linux"></i>
+              </div>
+              <div id="gitHubIcon" class="col">
+                <i class="fa-brands fa-github fa-5x" title="Github"></i>
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
 
-  </main>
+    <!-- Footer section -->
+    <footer
+      id="footer"
+      class="container-fluid d-flex pt-4 my-md-5 pt-md-5 border-top justify-content-center text-center"
+    ></footer>
+    <!-- End of Footer Section -->
 
-  <!-- Footer section -->
-    <footer id="footer" class="container-fluid d-flex pt-4 my-md-5 pt-md-5 border-top justify-content-center text-center">
-
-    </footer>
-  <!-- End of Footer Section -->
-
-
-
-  <script>
-    // loads navbar
-    $(function(){
-    $("#navbar").load("elements/nav.html");
-    });
-    // loads footer
-    $(function(){
-      $("#footer").load("elements/footer.html");
+    <script>
+      // loads navbar
+      $(function () {
+        $("#navbar").load("elements/nav.html");
+      });
+      // loads footer
+      $(function () {
+        $("#footer").load("elements/footer.html");
       });
     </script>
 
