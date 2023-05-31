@@ -65,6 +65,9 @@ function highlightSkills() {
     ruby.setAttribute("class", "col inactiveIcon");
     sql.setAttribute("class", "col inactiveIcon");
     // set live icons
+    react.setAttribute("class", "col liveIcon");
+    sql.setAttribute("class", "col liveIcon");
+    node.setAttribute("class", "col liveIcon");
     js.setAttribute("class", "col liveIcon");
     html.setAttribute("class", "col liveIcon");
     css.setAttribute("class", "col liveIcon");
