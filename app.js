@@ -50,6 +50,8 @@ function highlightSkills() {
     node.setAttribute("class", "col liveIcon");
     linux.setAttribute("class", "col liveIcon");
     github.setAttribute("class", "col liveIcon");
+    sql.setAttribute("class", "col liveIcon");
+
   } else if (accordionTwo === "true") {
     // set inactive icons
     js.setAttribute("class", "col inactiveIcon");
