@@ -49,11 +49,7 @@ span {
 }
 
 
-@media only screen and (max-width: 768px) {  
-  .skillsIconsSection {
-    font-size: 8px;
-  }
-  }
+
 
   body, navBar {
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
