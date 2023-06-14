@@ -14,7 +14,8 @@
 
 .liveIcon {
   color: #625ff1;
-  animation: blink 5s infinite;
+  animation: blink 5s ease-in-out infinite;
+  animation-delay: 1s;
 }
 
 @keyframes blink {
@@ -36,7 +37,7 @@ span {
 
 .inactiveIcon {
   color: black;
-  animation: blink none;
+  animation: blink ease-out none;
 }
 
 /* unstyled links */

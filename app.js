@@ -20,10 +20,10 @@ function highlightSkills() {
   const git = document.getElementById("gitIcon");
   const bootstrap = document.getElementById("bootstrapIcon");
   const node = document.getElementById("nodeIcon");
-  const python = document.getElementById("pythonIcon");
-  const ruby = document.getElementById("rubyIcon");
+  // const python = document.getElementById("pythonIcon");
+  // const ruby = document.getElementById("rubyIcon");
   const sql = document.getElementById("SQLIcon");
-  const linux = document.getElementById("LinuxIcon");
+  // const linux = document.getElementById("LinuxIcon");
   const github = document.getElementById("gitHubIcon");
 
   if (accordionOne === "true") {
@@ -35,10 +35,10 @@ function highlightSkills() {
     git.setAttribute("class", "col inactiveIcon");
     bootstrap.setAttribute("class", "col inactiveIcon");
     node.setAttribute("class", "col inactiveIcon");
-    linux.setAttribute("class", "col inactiveIcon");
+    // linux.setAttribute("class", "col inactiveIcon");
     github.setAttribute("class", "col inactiveIcon");
-    python.setAttribute("class", "col inactiveIcon");
-    ruby.setAttribute("class", "col inactiveIcon");
+    // python.setAttribute("class", "col inactiveIcon");
+    // ruby.setAttribute("class", "col inactiveIcon");
     sql.setAttribute("class", "col inactiveIcon");
     // set live icons
     js.setAttribute("class", "col liveIcon");
@@ -48,7 +48,7 @@ function highlightSkills() {
     git.setAttribute("class", "col liveIcon");
     bootstrap.setAttribute("class", "col liveIcon");
     node.setAttribute("class", "col liveIcon");
-    linux.setAttribute("class", "col liveIcon");
+    // linux.setAttribute("class", "col liveIcon");
     github.setAttribute("class", "col liveIcon");
     sql.setAttribute("class", "col liveIcon");
 
@@ -61,10 +61,10 @@ function highlightSkills() {
     git.setAttribute("class", "col inactiveIcon");
     bootstrap.setAttribute("class", "col inactiveIcon");
     node.setAttribute("class", "col inactiveIcon");
-    linux.setAttribute("class", "col inactiveIcon");
+    // linux.setAttribute("class", "col inactiveIcon");
     github.setAttribute("class", "col inactiveIcon");
-    python.setAttribute("class", "col inactiveIcon");
-    ruby.setAttribute("class", "col inactiveIcon");
+    // python.setAttribute("class", "col inactiveIcon");
+    // ruby.setAttribute("class", "col inactiveIcon");
     sql.setAttribute("class", "col inactiveIcon");
     // set live icons
     react.setAttribute("class", "col liveIcon");
@@ -75,7 +75,7 @@ function highlightSkills() {
     css.setAttribute("class", "col liveIcon");
     git.setAttribute("class", "col liveIcon");
     bootstrap.setAttribute("class", "col liveIcon");
-    linux.setAttribute("class", "col liveIcon");
+    // linux.setAttribute("class", "col liveIcon");
     github.setAttribute("class", "col liveIcon");
   } else if (accordionThree === "true") {
     // set inactive icons
@@ -86,16 +86,16 @@ function highlightSkills() {
     git.setAttribute("class", "col inactiveIcon");
     bootstrap.setAttribute("class", "col inactiveIcon");
     node.setAttribute("class", "col inactiveIcon");
-    linux.setAttribute("class", "col inactiveIcon");
+    // linux.setAttribute("class", "col inactiveIcon");
     github.setAttribute("class", "col inactiveIcon");
-    python.setAttribute("class", "col inactiveIcon");
-    ruby.setAttribute("class", "col inactiveIcon");
+    // python.setAttribute("class", "col inactiveIcon");
+    // ruby.setAttribute("class", "col inactiveIcon");
     sql.setAttribute("class", "col inactiveIcon");
     // set live icons
     js.setAttribute("class", "col liveIcon");
     git.setAttribute("class", "col liveIcon");
     node.setAttribute("class", "col liveIcon");
-    linux.setAttribute("class", "col liveIcon");
+    // linux.setAttribute("class", "col liveIcon");
     github.setAttribute("class", "col liveIcon");
     sql.setAttribute("class", "col liveIcon");
   } else {
@@ -108,10 +108,10 @@ function highlightSkills() {
     git.setAttribute("class", "col inactiveIcon");
     bootstrap.setAttribute("class", "col inactiveIcon");
     node.setAttribute("class", "col inactiveIcon");
-    linux.setAttribute("class", "col inactiveIcon");
+    // linux.setAttribute("class", "col inactiveIcon");
     github.setAttribute("class", "col inactiveIcon");
-    python.setAttribute("class", "col inactiveIcon");
-    ruby.setAttribute("class", "col inactiveIcon");
+    // python.setAttribute("class", "col inactiveIcon");
+    // ruby.setAttribute("class", "col inactiveIcon");
     sql.setAttribute("class", "col inactiveIcon");
   }
 }
